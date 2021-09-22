@@ -1,0 +1,90 @@
+$font-family-base: 'Open Sans', sans-serif;
+
+$h6-font-size:  0.875rem;
+$input-border-width:0;
+$input-btn-padding-y:.5rem;
+
+/* for bright blue, use primary */
+$dark:	#070439; /* dark-blue */
+$light: #585989; /* desat-blue */
+$danger:#3c9f8f;/*  green */
+$warning:#f6f6fe; /* blueish light-gray */
+$info:	#bfbfbf; /* gray*/
+
+
+
+
+
+.empty1 {
+    background:center / cover no-repeat url(/images/illustration-1.svg);
+    background-size: contain;
+    min-height: 400px;
+    }
+
+.empty2 {
+    background:center / cover no-repeat url(/images/illustration-2.svg);
+    background-size: contain;
+    min-height: 400px;
+}
+.filter-white{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(267deg) brightness(106%) contrast(101%);
+}
+
+.icon{
+    max-height: 13px;
+}
+
+
+h1,h2{
+    font-family:'Raleway', sans-serif;
+    
+}
+
+button {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.quote{
+    width: 10px;
+}
+
+.testimonial-photo{
+    width: 50px;
+}
+
+.wavy{
+    background:center / cover no-repeat url(/images/bg-curve-desktop.svg);
+    object-fit: fill;
+    
+}
+
+.link-white{
+    color: white;
+    text-decoration: none;
+}
+
+.social img{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+
+
+@media (min-width:992px) {
+    .empty1,.empty2 {
+        min-height: 470px;
+    }
+}
+
+@media (max-width:375px) {
+    main,nav{
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+}
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+

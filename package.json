@@ -1,0 +1,18 @@
+{
+  "name": "m06_challenge",
+  "version": "1.0.0",
+  "description": "![Design preview for the Fylo landing page with two column layout challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --watch sass -o css",
+    "optim-css": "purgecss --css css/custom.css --content index.html -o css/optim-custom.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.1.1",
+    "node-sass": "^6.0.1",
+    "purgecss": "^4.0.3"
+  }
+}
