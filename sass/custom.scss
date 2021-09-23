@@ -44,11 +44,11 @@ button {
     font-family: 'Raleway', sans-serif;
 }
 
-footer nav a{
+footer div a{
     color: white;
 }
 
-footer nav a:hover{
+footer div a:hover{
     color:#6C9BFF;
 }
 
@@ -88,7 +88,7 @@ footer nav a:hover{
 }
 
 @media (max-width:375px) {
-    main,nav{
+    main,nav,.bg-dark,.bg-light{
         padding-left: 30px !important;
         padding-right: 30px !important;
     }
