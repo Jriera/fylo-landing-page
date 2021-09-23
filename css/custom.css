@@ -26,6 +26,12 @@ h1, .h1, h2, .h2 {
 button {
   font-family: 'Raleway', sans-serif; }
 
+footer nav a {
+  color: white; }
+
+footer nav a:hover {
+  color: #6C9BFF; }
+
 .quote {
   width: 10px; }
 
@@ -248,7 +254,7 @@ a {
   color: #0d6efd;
   text-decoration: underline; }
   a:hover {
-    color: #0a58ca; }
+    color: #6C9BFF; }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
@@ -2589,7 +2595,7 @@ textarea.form-control-lg {
   color: #0d6efd;
   text-decoration: underline; }
   .btn-link:hover {
-    color: #0a58ca; }
+    color: #6C9BFF; }
   .btn-link:disabled, .btn-link.disabled {
     color: #6c757d; }
 
@@ -2980,7 +2986,7 @@ textarea.form-control-lg {
     .nav-link {
       transition: none; } }
   .nav-link:hover, .nav-link:focus {
-    color: #0a58ca; }
+    color: #6C9BFF; }
   .nav-link.disabled {
     color: #6c757d;
     pointer-events: none;
@@ -3676,12 +3682,12 @@ textarea.form-control-lg {
       transition: none; } }
   .page-link:hover {
     z-index: 2;
-    color: #0a58ca;
+    color: #6C9BFF;
     background-color: #e9ecef;
     border-color: #dee2e6; }
   .page-link:focus {
     z-index: 3;
-    color: #0a58ca;
+    color: #6C9BFF;
     background-color: #e9ecef;
     outline: 0;
     box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25); }
@@ -7861,3 +7867,8 @@ textarea.form-control-lg {
     display: inline-flex !important; }
   .d-print-none {
     display: none !important; } }
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #6C9BFF;
+  border-color: #6C9BFF; }

@@ -10,7 +10,7 @@ $light: #585989; /* desat-blue */
 $danger:#3c9f8f;/*  green */
 $warning:#f6f6fe; /* blueish light-gray */
 $info:	#bfbfbf; /* gray*/
-
+$link-hover-color:#6C9BFF;
 
 
 
@@ -44,6 +44,15 @@ button {
     font-family: 'Raleway', sans-serif;
 }
 
+footer nav a{
+    color: white;
+}
+
+footer nav a:hover{
+    color:#6C9BFF;
+}
+
+
 
 .quote{
     width: 10px;
@@ -71,6 +80,7 @@ button {
 
 
 
+
 @media (min-width:992px) {
     .empty1,.empty2 {
         min-height: 470px;
@@ -88,3 +98,9 @@ button {
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+
+.btn-primary:hover{
+    color:#fff;
+    background-color: #6C9BFF;
+    border-color: #6C9BFF;
+}
