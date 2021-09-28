@@ -5,12 +5,12 @@
 /* blueish light-gray */
 /* gray*/
 .empty1 {
-  background: center/cover no-repeat url(/images/folder-people.svg);
+  background: center/cover no-repeat url(../images/folder-people.svg);
   background-size: contain;
   min-height: 400px; }
 
 .empty2 {
-  background: center/cover no-repeat url(/images/illustration-2.svg);
+  background: center/cover no-repeat url(../images/illustration-2.svg);
   background-size: contain;
   min-height: 400px; }
 
@@ -39,7 +39,7 @@ footer div a:hover {
   width: 50px; }
 
 .wavy {
-  background: center/cover no-repeat url(/images/bg-curve-desktop.svg);
+  background: center/cover no-repeat url(../images/bg-curve-desktop.svg);
   object-fit: fill; }
 
 .social img {
